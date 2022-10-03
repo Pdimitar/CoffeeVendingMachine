@@ -15,6 +15,10 @@ namespace VendingMachine.Service
     {
         private ICoffeeService _coffeeService;
         public VendingMachineModel vendingMachine = new VendingMachineModel();
+        public VendingMachineService()
+        {
+
+        }
         public VendingMachineService(ICoffeeService coffeeService)
         {
             _coffeeService = coffeeService;
@@ -176,14 +180,14 @@ namespace VendingMachine.Service
             return AcceptedIngredientsCommon.AcceptedIngredients.Any(x => x == selecedIngredient);
 
         }
-        private void CollectChange()
+        public void CollectChange()
         {
             Console.WriteLine($"Your change is {vendingMachine.Money}");
             vendingMachine.Money = 0;
             Thread.Sleep(2500);
         }
 
-        private void InsertMoney(string addedMoney)
+        public void InsertMoney(string addedMoney)
         {
             int amount;
             bool validAmount = int.TryParse(addedMoney, out amount);

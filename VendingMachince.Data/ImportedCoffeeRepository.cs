@@ -23,10 +23,14 @@ namespace VendingMachince.Data
 
             XmlSerializer serializer = new XmlSerializer(typeof(List<Coffee>), xRoot);
 
-            using (FileStream stream = File.OpenRead("ImportedCoffees.xml"))
+            var enviroment = Environment.CurrentDirectory;
+            string projectDirectory = Directory.GetParent(enviroment).Parent.FullName;
+
+            var path = Path.Combine(projectDirectory, "ImportedCoffees.xml");
+            using (FileStream stream = File.OpenRead(path))
             {
                 List<Coffee> dezerializedList = (List<Coffee>)serializer.Deserialize(stream);
-                
+
                 var index = 1;
                 foreach (var coffee in dezerializedList)
                 {

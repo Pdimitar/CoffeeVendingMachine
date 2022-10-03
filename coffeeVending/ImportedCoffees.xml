@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<ArrayOfCoffee xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Coffee>
+    <Name>Pumpkin latte</Name>
+    <Price>30</Price>
+    <Ingredients>
+      <Ingredient>
+        <Name>Milk</Name>
+        <Amount>2</Amount>
+      </Ingredient>
+      <Ingredient>
+        <Name>Sugar</Name>
+        <Amount>1</Amount>
+      </Ingredient>
+	    <Ingredient>
+        <Name>Pumpkin Spice</Name>
+        <Amount>1</Amount>
+      </Ingredient>
+    </Ingredients>
+  </Coffee>
+  <Coffee>
+    <Name>Cappuccino</Name>
+    <Price>25</Price>
+    <Ingredients>
+      <Ingredient>
+        <Name>Milk</Name>
+        <Amount>1</Amount>
+      </Ingredient>
+      <Ingredient>
+        <Name>Sugar</Name>
+        <Amount>1</Amount>
+      </Ingredient>
+	    <Ingredient>
+        <Name>Milk Foam</Name>
+        <Amount>1</Amount>
+      </Ingredient>
+    </Ingredients>
+  </Coffee>
+
+</ArrayOfCoffee>

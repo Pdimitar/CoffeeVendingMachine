@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Coffee>
+	<Name>Pumpkin Latte</Name>
+	<Price>30</Price>
+	<Ingredients>
+		<Ingredient>
+			<Name>Milk</Name>
+			<Amount>2</Amount>
+		</Ingredient>
+		<Ingredient>
+			<Name>Sugar</Name>
+			<Amount>2</Amount>
+		</Ingredient>
+		<Ingredient>
+			<Name>Pumpkin spice</Name>
+			<Amount>1</Amount>
+		</Ingredient>
+	</Ingredients>
+	<Name>Cappuccino</Name>
+	<Price>25</Price>
+	<Ingredients>
+		<Ingredient>
+			<Name>Milk</Name>
+			<Amount>3</Amount>
+		</Ingredient>
+		<Ingredient>
+			<Name>Sugar</Name>
+			<Amount>2</Amount>
+		</Ingredient>
+		<Ingredient>
+			<Name>Foamed milk</Name>
+			<Amount>1</Amount>
+		</Ingredient>
+	</Ingredients>
+</Coffee>
+
+
+
